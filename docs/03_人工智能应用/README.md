@@ -1,3 +1,10 @@
+---
+tags:
+  - 人工智能
+  - vibe coding
+  - 工具
+---
+
 # 03 人工智能应用（vibe coding）
 
 ## 概览
