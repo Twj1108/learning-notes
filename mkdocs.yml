@@ -1,0 +1,18 @@
+site_name: 学习笔记知识库
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
