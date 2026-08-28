@@ -1,0 +1,36 @@
+:root {
+  --md-primary-fg-color: #3EB489;
+  --md-primary-fg-color--light: #82D9BC;
+  --md-primary-fg-color--dark: #2E8B6E;
+  --md-accent-fg-color: #2E8B6E;
+}
+
+.kw-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 1.2em;
+}
+
+.kw-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
+
+.kw-chip {
+  display: inline-block;
+  padding: 0.15em 0.75em;
+  font-size: 0.8rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--md-primary-fg-color--dark);
+  background: rgba(62, 180, 137, 0.12);
+  border: 1px solid rgba(62, 180, 137, 0.35);
+}
+
+.kw-chip:hover {
+  background: var(--md-primary-fg-color);
+  color: #fff;
+}
